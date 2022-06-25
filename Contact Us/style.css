@@ -1,0 +1,34 @@
+body {
+    background-color: rgba(120, 162, 162, 0.193);
+}
+
+h1 {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+button {
+    background-color: #d2691e;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 5px;
+    font-size: 20px;
+    border-color: whitesmoke;
+    color: white;
+}
+
+.container {
+    margin: 5px;
+}
+.grid-container{
+    color: black;
+    display:grid;
+    grid-template-columns: 3fr  3fr  3fr 3fr;
+    grid-template-rows: 40px  40px  40px 40px;
+}

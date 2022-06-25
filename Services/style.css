@@ -1,0 +1,20 @@
+body{
+    background-color: rgba(120, 162, 162, 0.193);
+}
+h1{
+    background-color: black;
+    color: aliceblue;
+    font-size: 30px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr  2fr;
+    grid-template-rows: 250px ;
+    /* grid-auto-rows: 150px; */
+}
+button{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    margin: 5px;
+}
